@@ -1,0 +1,57 @@
+a {
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 7px 3px;
+}
+
+.common-link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-header {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.sub-header {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.custom-p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.catalog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.catalog div p {
+    height: 50px;
+    background: black;
+    opacity: 0.5;
+    margin-top: -50px;
+}
+
+.catalog div p span {
+    color: white;
+    display: block;
+    padding: 3px 7px;
+}
