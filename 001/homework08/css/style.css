@@ -2,6 +2,7 @@
     font-family: Gliroy, sans-serif;
     padding: 0;
     margin: 0;
+    /* border: 1px solid red; */
 }
 
 .wrapper {width: 1200px; margin: 0 auto;}
@@ -140,11 +141,59 @@
     margin-right: 15px;
 }
 
-#brand { height: 243px; }
+#brand { 
+    height: 243px; 
+    display: flex;
+    align-items: center;
+}
 
 .brand-logo {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: 
+    space-between;
+}
+
+#home-page {display: none;}
+#about-us {
+   height: 540px; 
+   background: #FAFAFA;
+}
+
+.about-us-bg {
+    width: 100%;
+    height: 100%;
+    background:
+    url('../assets/svg/stroke/Vector_1.svg') -60px 45px no-repeat, 
+    url('../assets/svg/stroke/Vector_2.svg') -63px 0 no-repeat;
+}
+
+.about-us-image {
+    height: 540px;
+    background: url('../assets/img/image_2.png') 495px center no-repeat;
+    border: 1px solid transparent;
+}
+
+.about-us-text {
+    margin: 127px auto auto 29px;
+    width: 515px;
+    height: 289px;
+}
+
+.about-us-title {
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: 700px;
+    width: 435px;
+}
+
+.about-us-paragraph {
+    font-weight: 400;
+    color: #666;
+    line-height: 150%;
+}
+
+.about-us-button-margin {
+    margin-top: 35px;
 }
