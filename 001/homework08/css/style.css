@@ -1,0 +1,150 @@
+* {
+    font-family: Gliroy, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {width: 1200px; margin: 0 auto;}
+
+#home-page { height: 700px; }
+
+.menu-bar {
+    width: 1170px;
+    height: 40px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 137px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-label {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo-label-accent {
+    color: #F25822;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.menu-item-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+
+.menu-item-active {
+    color: #F25822;
+    font-weight: 600;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn-orange {
+    background: #F25822;
+    color: #FFF;
+}
+
+.btn-small {
+    font-size: 12px;
+    font-weight: 600;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.home-meta {
+    width: 543px;
+    height: 374px;
+    margin-top: 143px;
+    margin-bottom: 103px;
+    padding-left: 21px;
+    background-image: url('../assets/svg/element.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: 0 70px;
+}
+
+.home-meta-image {
+    background-image: url('../assets/img/image_1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 163px 64px auto auto;
+}
+
+.home-meta-title {
+    color: #000;
+    font-weight: 700;
+    font-size: 59px;
+}
+
+.home-meta-subtitle {
+    width: 466px;
+    color: #888;
+    font-size: 20px;
+    margin-top: 17px;
+    font-weight: 500;
+}
+
+.button-meta {
+    margin-top: 37px;
+    width: 302px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-normal {
+    font-size: 15px;
+    font-weight: 700;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.btn-with-icon-without-border {
+    width: 135px;
+    height: 30px;
+    color: #AAAAAA;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.btn-with-icon-without-border img {
+    margin-right: 15px;
+}
+
+#brand { height: 243px; }
+
+.brand-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
