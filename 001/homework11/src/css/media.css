@@ -1,4 +1,4 @@
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1024px) {
     #search-button, #user-button, #cart-button {
         display: none;
     }
@@ -36,6 +36,52 @@
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
+    header {
+        background-size: 80%;
+        background-position: left;
+        background-position: -145px 0;
+        height: 580px;
+    }
 
+    .promo {
+        top: 30vh;
+        left: 50vh;
+        height: auto;
+    }
+
+    .promo h1 {
+        font-weight: 900;
+        font-size: 32px;
+    }
+    
+    .promo span {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .products-body {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 0;
+        row-gap: 25px;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    
+    .product {
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .products-footer {
+        width: 40vw;
+    }
+
+    .btn-outline {
+        font-size: 18px;
+        height: 56px;
+        font-weight: 500;
+    }
 }
