@@ -1,0 +1,41 @@
+@media screen and (max-width: 980px) {
+    #search-button, #user-button, #cart-button {
+        display: none;
+    }
+
+    .nav-logo {
+        width: auto;
+        margin-left: 10vw;
+    }
+
+    .nav-buttons {
+        width: auto;
+        margin-right: 10vw;
+    }
+
+    header {
+        background-position: left;
+        background-position: -150px 0;
+    }
+
+    .promo {
+        left: 70vh;
+    }
+
+    .offer {
+        flex-direction: column;
+    }
+
+    .item img {
+        width: 100%;
+    }
+
+    .products-body {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+}
