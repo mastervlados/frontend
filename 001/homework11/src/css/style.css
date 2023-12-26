@@ -51,7 +51,7 @@ nav {
     margin-right: 55px;
 }
 
-header {
+.header {
     background: #F1E4E6 url('../../example/img/promo.png') no-repeat;
     height: 764px;
     width: 100%;
@@ -164,7 +164,7 @@ header {
     background: #F6F6F6;
 }
 
-.product-details h4 {
+.product-title {
     text-transform: uppercase;
     font-size: 13px;
     color: #000;
